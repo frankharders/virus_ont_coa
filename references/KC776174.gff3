@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KC776174.1 1 30030
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1306931
+KC776174.1	Genbank	region	1	30030	.	+	.	ID=KC776174.1:1..30030;Dbxref=taxon:1306931;collection-date=Apr-2012;country=Jordan;gbkey=Src;genome=genomic;genotype=2c;isolation-source=bronchial wash;mol_type=genomic RNA;nat-host=Homo sapiens;strain=Jordan-N3/2012
+KC776174.1	Genbank	gene	233	21468	.	+	.	ID=gene-ORF1ab;Name=ORF1ab;gbkey=Gene;gene=ORF1ab;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	233	13387	.	+	0	ID=cds-AGH58716.1;Parent=gene-ORF1ab;Dbxref=NCBI_GP:AGH58716.1;Name=AGH58716.1;exception=ribosomal slippage;gbkey=CDS;gene=ORF1ab;product=ORF1ab protein;protein_id=AGH58716.1
+KC776174.1	Genbank	CDS	13387	21468	.	+	0	ID=cds-AGH58716.1;Parent=gene-ORF1ab;Dbxref=NCBI_GP:AGH58716.1;Name=AGH58716.1;exception=ribosomal slippage;gbkey=CDS;gene=ORF1ab;product=ORF1ab protein;protein_id=AGH58716.1
+KC776174.1	Genbank	CDS	233	13408	.	+	0	ID=cds-AGH58715.1;Parent=gene-ORF1ab;Dbxref=NCBI_GP:AGH58715.1;Name=AGH58715.1;gbkey=CDS;gene=ORF1ab;product=ORF1a protein;protein_id=AGH58715.1
+KC776174.1	Genbank	gene	21410	25471	.	+	.	ID=gene-S;Name=S;gbkey=Gene;gene=S;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	21410	25471	.	+	0	ID=cds-AGH58717.1;Parent=gene-S;Dbxref=NCBI_GP:AGH58717.1;Name=AGH58717.1;gbkey=CDS;gene=S;product=S protein;protein_id=AGH58717.1
+KC776174.1	Genbank	gene	25486	25797	.	+	.	ID=gene-ORF3;Name=ORF3;gbkey=Gene;gene=ORF3;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	25486	25797	.	+	0	ID=cds-AGH58719.1;Parent=gene-ORF3;Dbxref=NCBI_GP:AGH58719.1;Name=AGH58719.1;gbkey=CDS;gene=ORF3;product=ORF3 protein;protein_id=AGH58719.1
+KC776174.1	Genbank	gene	25806	26135	.	+	.	ID=gene-ORF4a;Name=ORF4a;gbkey=Gene;gene=ORF4a;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	25806	26135	.	+	0	ID=cds-AGH58720.1;Parent=gene-ORF4a;Dbxref=NCBI_GP:AGH58720.1;Name=AGH58720.1;gbkey=CDS;gene=ORF4a;product=ORF4a protein;protein_id=AGH58720.1
+KC776174.1	Genbank	gene	26047	26787	.	+	.	ID=gene-ORF4b;Name=ORF4b;gbkey=Gene;gene=ORF4b;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	26047	26787	.	+	0	ID=cds-AGH58721.1;Parent=gene-ORF4b;Dbxref=NCBI_GP:AGH58721.1;Name=AGH58721.1;gbkey=CDS;gene=ORF4b;product=ORF4b protein;protein_id=AGH58721.1
+KC776174.1	Genbank	gene	26794	27468	.	+	.	ID=gene-ORF5;Name=ORF5;gbkey=Gene;gene=ORF5;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	26794	27468	.	+	0	ID=cds-AGH58722.1;Parent=gene-ORF5;Dbxref=NCBI_GP:AGH58722.1;Name=AGH58722.1;gbkey=CDS;gene=ORF5;product=ORF5 protein;protein_id=AGH58722.1
+KC776174.1	Genbank	gene	27544	27792	.	+	.	ID=gene-E;Name=E;gbkey=Gene;gene=E;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	27544	27792	.	+	0	ID=cds-AGH58723.1;Parent=gene-E;Dbxref=NCBI_GP:AGH58723.1;Name=AGH58723.1;Note=small envelope protein E%3B NS3_envE%3B pfam02723;gbkey=CDS;gene=E;product=E protein;protein_id=AGH58723.1
+KC776174.1	Genbank	gene	27807	28466	.	+	.	ID=gene-M;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	27807	28466	.	+	0	ID=cds-AGH58718.1;Parent=gene-M;Dbxref=NCBI_GP:AGH58718.1;Name=AGH58718.1;Note=Corona_M%3B Coronavirus matrix transmembrane glycoprotein%3B pfam01635;gbkey=CDS;gene=M;product=M protein;protein_id=AGH58718.1
+KC776174.1	Genbank	gene	28520	29761	.	+	.	ID=gene-N;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	28520	29761	.	+	0	ID=cds-AGH58724.1;Parent=gene-N;Dbxref=NCBI_GP:AGH58724.1;Name=AGH58724.1;gbkey=CDS;gene=N;product=N protein;protein_id=AGH58724.1
+KC776174.1	Genbank	gene	28716	29054	.	+	.	ID=gene-ORF8b;Name=ORF8b;gbkey=Gene;gene=ORF8b;gene_biotype=protein_coding
+KC776174.1	Genbank	CDS	28716	29054	.	+	0	ID=cds-AGH58725.1;Parent=gene-ORF8b;Dbxref=NCBI_GP:AGH58725.1;Name=AGH58725.1;gbkey=CDS;gene=ORF8b;product=ORF8b protein;protein_id=AGH58725.1
+
