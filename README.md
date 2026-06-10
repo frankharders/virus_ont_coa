@@ -6,6 +6,16 @@
 
 ---
 
+> ⚠️ **BELANGRIJK: Single-segment virussen only**
+> 
+> Deze pipeline is uitsluitend geschikt voor virussen met **één genomisch segment**.
+> Voorbeelden: SARS-CoV-2, MERS-CoV, overige coronavirussen.
+> 
+> Voor **multi-segment virussen** (BTV, EHDV, NDV, SFTS, Avian Influenza)
+> gebruik de aparte pipeline: [`virus_ont_coa_multiseg`](https://github.com/frankharders/virus_ont_coa_multiseg)
+
+---
+
 ## Overzicht
 
 `virus_ont_coa` is een complete bioinformatica pipeline voor het detecteren en rapporteren van minority variants in virus isolaten gesequenced met Oxford Nanopore Technology (ONT). De pipeline is specifiek ontwikkeld voor de productie van Certificate of Analysis (CoA) documenten bij WBVR en genereert zowel gestandaardiseerde tabellen als interactieve visualisaties.
@@ -274,7 +284,7 @@ De pipeline accepteert zowel standaard NCBI GFF3 als minimale CDS-only GFF3 best
 ## Bekende beperkingen
 
 - **Indels**: VarScan2 `mpileup2snp` roept alleen SNPs aan. Indels worden niet gerapporteerd (ONT indel calling is onbetrouwbaar zonder speciaal getrainde modellen).
-- **Multi-segment genomen**: De pipeline is ontworpen voor enkelvoudige referentie FASTA bestanden. Multi-segment virussen (bijv. influenza) vereisen aanpassing.
+- **Single-segment only**: De pipeline is uitsluitend ontworpen voor virussen met één genomisch segment. Multi-segment virussen (BTV, EHDV, NDV, SFTS, Avian Influenza) worden **niet ondersteund** en geven onjuiste resultaten. Gebruik hiervoor [`virus_ont_coa_multiseg`](https://github.com/frankharders/virus_ont_coa_multiseg).
 - **Ribosomal slippage**: ORF1ab-achtige genen met ribosomal slippage genereren een bcftools csq waarschuwing. De annotatie is correct maar de overlappende CDS regio wordt tweemaal gerapporteerd.
 
 ---
